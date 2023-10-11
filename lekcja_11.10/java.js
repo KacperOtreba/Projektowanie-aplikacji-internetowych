@@ -20,3 +20,15 @@ for (i = 0; i <= 10; i++){
     ilo+=i+"\n";
 }
 alert (ilo)
+
+
+function Potegowanie(){
+    let liczba = prompt("podaj liczbe do potęgowania:","");
+    let potega = prompt("podaj potege: ","");
+    let p = liczba;
+    for (i = 0; i < potega-1; i++)
+    {
+        liczba *= p
+    }
+    alert (liczba)
+}
