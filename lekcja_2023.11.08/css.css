@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+.box1, .box2{
+    display: flex;
+    flex: 1;
+    border: solid black 2px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box1{
+    background-color: aqua;
+}
+
+.box2{
+    background-color: blueviolet;
+}
+
+#suma{
+    font-size: 50px;
+    border: solid black 3px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: grey;
+}
