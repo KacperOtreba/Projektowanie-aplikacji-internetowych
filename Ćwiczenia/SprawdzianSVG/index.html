@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprawdzian</title>
+    <script src="script.js"></script>
+</head>
+<body style="text-align:center;">
+    <b>Wybierz kształt: </b>
+    <input type="radio" name="shape" value="circle" id="s1">Circle
+    <input type="radio" name="shape" value="square" id="s2">Square
+    <br><br>
+    <b>Wybierz rozmiar: </b>
+    <select id="size">
+        <option value="100">Small</option>
+        <option value="200">Medium</option>
+        <option value="300">Large</option>
+    </select>
+    <br><br>
+    <b>Wybierz kolor: </b>
+    <input type="color" id="color">
+    <br><br>
+    <b>Transformacja (Wpisz mnożnik skali lub kąt rotacji): </b>
+    <select id="trans">
+        <option value="rotate">Rotacja</option>
+        <option value="scale">Skalowanie</option>
+    </select>
+    <input type="number" id="angle" placeholder="Wartość">
+    <br><br>
+    <input type="button" value="Draw!" onclick="draw()">
+    <br><br>
+    <div id="trans">
+
+    </div>
+    <div id="SVG">
+
+    </div>
+
+</body>
+</html>

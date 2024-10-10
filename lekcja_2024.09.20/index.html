@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <title>Document</title>
+    </head>
+<body>
+    <svg width="200px" height="200px">
+        <circle cx="100" cy="100" r="50" fill="white" stroke="black" id="kolo"></circle>
+    </svg>
+    <form name="XD">
+        <select id="ksztalt">
+            <option value="kolo">Koło</option>
+            <option value="kwadrat">Kwadrat</option>
+            <option value="trojkat">Trójkąt</option>
+            <option value="prostokat">Prostokąt</option>
+        </select> <br><br>
+        <input type="text" id="kolor1" placeholder="Podaj kolor: "><br><br>
+        <input type="text" id="rozmiar" placeholder="Podaj romiar: "><br><br>
+        <input type="text" id="rama" placeholder="Kolor ramki: "><br><br>
+        <input type="button" onclick="zmien()" value="Zmien" id="przycisk">
+        <select id="trans">
+            <option value="rotate">Rotacja</option>
+            <option value="scale">Skalowanie</option>
+        </select>
+    </form>
+</body>
+</html>
