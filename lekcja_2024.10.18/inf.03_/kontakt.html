@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firma IT</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+    <div class="head">
+        <div class="logo">
+            <img src="logo.png" alt="firma it">
+        </div>
+        
+        <div class="menu">
+            <a href="index.html">Strona Główna</a>
+            <a href="uslugi.html">Usługi</a>
+            <a href="kontakt.html">Kontakt</a>
+        </div>
+    </div>
+    <div class="baner">
+        <img src="animacja.gif" alt="Usługi informatyczne">
+    </div>
+    <div class="main">
+        <h2>Kontakt</h2>
+        <form>
+        <table>
+            <tr>
+                <td>Imię: </td>
+                <td><input type="text" id="imie"></td>
+            </tr>
+            <tr>
+                <td>Nazwisko: </td>
+                <td><input type="text" id="nazwisko"></td>
+            </tr>
+            <tr>
+                <td>E-mail: </td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>Zgłoszenie </td>
+                <td><textarea cols="40" rows="10" id="zgloszenie"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" id="check">Zapoznałam/em się z regulaminem</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="reset">Resetuj</button>
+                     <button type="button" onclick="Przeslij()">Prześlij</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+        <hr>
+        <p id="wynik"></p>
+    </div>
+    <div class="footer">
+        <p>Autor strony: <b>00000000000</b></p>
+    </div>
+</div>
+</body>
+</html>

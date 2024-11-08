@@ -1,0 +1,65 @@
+.head{
+    display:flex;
+    background-color: lightblue;
+}
+
+.logo{
+    height: 100px;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu{
+    height: 100px;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-color: #EEEEEE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.baner{
+    background-color: #DDDDDD;
+    height: 200px;
+}
+
+.menu > a{
+    color: navy;
+    font-size: 150%;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    padding:5;
+    
+}
+
+.menu > a:hover{
+    border: solid 1px navy;
+}
+
+.main{
+    color: navy;
+    margin: 50px;
+    height: 400px;
+}
+
+.footer{
+    text-align: right;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+button{
+    background-color: lightblue;
+    color: navy;
+}
